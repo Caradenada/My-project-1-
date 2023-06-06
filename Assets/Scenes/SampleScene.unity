@@ -250,7 +250,7 @@ TilemapRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.065, y: 0.255, z: 0}
+  m_ChunkCullingBounds: {x: 0.065, y: 0.7509999, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -306,6 +306,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 16, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -3, y: 8, z: 0}
     second:
       serializedVersion: 2
@@ -334,6 +344,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 103a9ce9dc1154c4c8d815f252ff0a71, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ba499fff0763af942bc0292f1122fc8e, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4f66525f794b7af4da084e3a7c98bc21, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 3
     m_Data: {fileID: 791878515, guid: 5d7eb1fa315a09c41a157b197d6d39a9, type: 3}
@@ -341,8 +353,10 @@ Tilemap:
     m_Data: {fileID: -2002418318, guid: 5d7eb1fa315a09c41a157b197d6d39a9, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -527940562, guid: 5d7eb1fa315a09c41a157b197d6d39a9, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 765464457, guid: 12fa9364c18d74d49a84ad4876376c5f, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 6
+  - m_RefCount: 7
     m_Data:
       e00: 1
       e01: 0
@@ -361,13 +375,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 6
+  - m_RefCount: 7
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -8, y: -5, z: 0}
-  m_Size: {x: 22, y: 14, z: 1}
+  m_Size: {x: 25, y: 14, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -583,7 +597,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.065, y: 0.195, z: 0}
+  m_ChunkCullingBounds: {x: 0.065, y: 0.7509999, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -55323,17 +55337,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1664312779286787007, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
+      propertyPath: collisionOffset
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 1955065915874191524, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1955065915874191524, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.184
       objectReference: {fileID: 0}
     - target: {fileID: 1955065915874191524, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 1955065915874191524, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55368,12 +55386,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2623859554476111232, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
+      propertyPath: m_Size.x
+      value: 0.09795594
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623859554476111232, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_Size.y
-      value: 0.20149708
+      value: 0.08001068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2623859554476111232, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0023733377
       objectReference: {fileID: 0}
     - target: {fileID: 2623859554476111232, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_Offset.y
-      value: -0.16064593
+      value: -0.0019298643
       objectReference: {fileID: 0}
     - target: {fileID: 3347959130851222372, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_Name
@@ -55387,6 +55413,10 @@ PrefabInstance:
       propertyPath: m_DefaultActionMap
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6970561137463301707, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1257093778, guid: ec3677bd973c2754fa8df6192a822415, type: 3}
     - target: {fileID: 6970561137463301707, guid: 1bcef21aa0f9d4d4f9014344d1fdfdf6, type: 3}
       propertyPath: m_SortingLayer
       value: 2

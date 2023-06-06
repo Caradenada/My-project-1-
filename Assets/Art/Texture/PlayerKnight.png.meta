@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f037e7ffe93a8234dacbe66b6a00d7e0
+guid: ec3677bd973c2754fa8df6192a822415
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,85 +117,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Player_0
+      name: PlayerKnight_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f80e9ff9a6e58f46aae7d6e0502da77
-      internalID: -2036973802
+      spriteID: f14d5f957e6b0bc45a0ae432fd5b2f2f
+      internalID: 1257093778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Player_1
+      name: PlayerKnight_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afae8593fa6135742ae9cd61606b32e2
+      internalID: 1526280217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnight_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cade965ff5d66a844a1a89388d59fc1c
-      internalID: -1809407457
+      spriteID: eb62502d3e9581646a71e1d0d461f042
+      internalID: 1945272246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Player_2
+      name: PlayerKnight_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe3eb8584d3094fad9df36121faf94
+      internalID: -363415314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnight_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11dd6d34a5e20e94c9c806d8f7b895b4
-      internalID: 1358338660
+      spriteID: 0ee29d5f39bd9094296f99910990d872
+      internalID: 717860497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Player_3
+      name: PlayerKnight_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 0
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410ff37e4621d7449ae2a4de97e0394d
-      internalID: 758871628
+      spriteID: e465be9452f896149a2a5aa79ff02b4d
+      internalID: -2052258561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnight_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c5d69e48ecc4a439cc1c7d1da96fd0
+      internalID: -1292364438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnight_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95565b4638945734b8f0248911f2cdc5
+      internalID: -1143450096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnight_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aec49aa7cd00f439d516bdcce005ed
+      internalID: -235021788
       vertices: []
       indices: 
       edges: []
@@ -211,10 +316,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TX Player_0: -2036973802
-      TX Player_1: -1809407457
-      TX Player_2: 1358338660
-      TX Player_3: 758871628
+      PlayerKnight_0: 1257093778
+      PlayerKnight_1: 1526280217
+      PlayerKnight_2: 1945272246
+      PlayerKnight_3: -363415314
+      PlayerKnight_4: 717860497
+      PlayerKnight_5: -2052258561
+      PlayerKnight_6: -1292364438
+      PlayerKnight_7: -1143450096
+      PlayerKnight_8: -235021788
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
