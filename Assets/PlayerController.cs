@@ -11,8 +11,6 @@ public class PlayerController : MonoBehaviour
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     Vector2 movementInput;
     Rigidbody2D rb;
-
-public GameObject objetoContenedor;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +20,7 @@ public GameObject objetoContenedor;
     // Update is called once per frame
     void Update()
     {
-        updateSorting();
+        
     }
 
     private void FixedUpdate(){
@@ -41,23 +39,4 @@ public GameObject objetoContenedor;
     {
         movementInput = movementValue.Get<Vector2>();
     }
-
-    void updateSorting(){
-        {
-    float personajePosY = transform.position.y;
-    float contenedorPosY = objetoContenedor.transform.position.y;
-
-    Renderer[] renderers = objetoContenedor.GetComponentsInChildren<Renderer>();
-
-    foreach (Renderer renderer in renderers)
-    {
-        if (personajePosY > contenedorPosY)
-        {
-            renderer.sortingOrder = 1; // Personaje por encima del objeto contenedor
-        }
-        else
-        {
-            renderer.sortingOrder = -1; // Personaje por debajo del objeto contenedor
-        }
-    }
-        }}}
+}
